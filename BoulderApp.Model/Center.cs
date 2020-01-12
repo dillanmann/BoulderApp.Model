@@ -1,6 +1,5 @@
 ﻿namespace BoulderApp.Model
 {
-    using System;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -12,7 +11,7 @@
         /// <summary>
         ///     The circuits
         /// </summary>
-        public IEnumerable<Circuit> Circuits { get; set; } = new List<Circuit>();
+        public ICollection<Circuit> Circuits { get; set; } = new List<Circuit>();
 
         /// <summary>
         /// Compare objects for equality

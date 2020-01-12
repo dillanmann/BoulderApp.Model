@@ -27,7 +27,7 @@
         /// <summary>
         /// The problem attempts
         /// </summary>
-        public IEnumerable<ProblemAttempt> ProblemAttempts { get; set; } = new List<ProblemAttempt>();
+        public ICollection<ProblemAttempt> ProblemAttempts { get; set; } = new List<ProblemAttempt>();
 
         /// <summary>
         /// Compare objects for equality

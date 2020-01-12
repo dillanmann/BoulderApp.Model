@@ -22,7 +22,7 @@
         /// <summary>
         ///     List of problems within the circuit.
         /// </summary>
-        public IEnumerable<Problem> Problems { get; set; } = new List<Problem>();
+        public ICollection<Problem> Problems { get; set; } = new List<Problem>();
 
         /// <summary>
         /// Compare objects for equality

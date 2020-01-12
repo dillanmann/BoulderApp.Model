@@ -1,7 +1,5 @@
 ﻿namespace BoulderApp.Model
 {
-    using System;
-
     /// <summary>
     ///     Model of a bouldering problem.
     /// </summary>

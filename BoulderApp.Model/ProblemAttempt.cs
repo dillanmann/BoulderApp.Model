@@ -1,7 +1,5 @@
 ﻿namespace BoulderApp.Model
 {
-    using System;
-
     /// <summary>
     ///     Model of an attempt at a problem.
     /// </summary>
